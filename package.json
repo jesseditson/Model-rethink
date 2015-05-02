@@ -1,0 +1,22 @@
+{
+  "name": "mise-model-rethink",
+  "version": "0.0.1",
+  "description": "Mise model extension for rethinkdb",
+  "main": "lib/Model-rethink.js",
+  "scripts": {
+    "test": "mocha --recursive --reporter spec --bail --check-leaks test/lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesseditson/Model-rethink.git"
+  },
+  "author": "Jesse Ditson <jesse.ditson@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesseditson/Model-rethink/issues"
+  },
+  "homepage": "https://github.com/jesseditson/Model-rethink",
+  "dependencies": {
+    "rethinkdb": "^1.16.2"
+  }
+}
